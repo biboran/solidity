@@ -6,4 +6,5 @@ contract C {
 	ufixed constant e = ufixed(4 ether / 3 hours);
 }
 // ----
+// Warning: (142-149): Using "years" as a unit denomination is deprecated.
 // TypeError: (231-248): Type rational_const 10000000000000000 / 27 is not implicitly convertible to expected type uint256. Try converting to type ufixed256x62 or use an explicit conversion.
